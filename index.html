@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osagyefo Car Rentals</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0; /* Reset default body margin */
+            overflow-x: hidden; /* Prevent horizontal scrollbar */
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f59e0b;
+        }
+        .company-name{
+          color: #f59e0b;
+        }
+        header {
+            width: 100%;
+            text-align: center; /* Center the header content */
+        }
+        nav {
+            margin-right: 0;
+            margin-top: 1rem; /* Add space between logo and nav */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #f59e0b;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-darkbrown text-white py-4  shadow-md sticky top-0 z-10 rounded-md">
+        <div class="logo ml-4">Osagyefo</div>
+        <nav class="mr-4">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-yellow-300 no-underline text-black">Home</a></li>
+                <li><a href="ourcars.html" class="hover:text-yellow-300 no-underline text-black">Cars</a></li>
+                <li><a href="booking.html" class="hover:text-yellow-300 no-underline text-black">Book Now</a></li>
+                <li><a href="aboutus.html" class="hover:text-yellow-300 no-underline text-black">About Us</a></li>
+                <li><a href="CONTACT.html" class="hover:text-yellow-300 no-underline text-black">Contact</a></li>
+            </ul>
+        </nav>
+</header>
+
+    <section id="home" class="bg-red-100 text-gray-800 text-center py-20 px-4 rounded-md">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold mb-4 text-red-700">Your Trusted Car Rental Service</h1>
+            <p class="text-lg mb-8">Rent the perfect car for your journey. Reliable, affordable, and convenient.</p>
+            <a href="#cars" class="bg-yellow-500 hover:bg-yellow-600 text-darkbrown font-semibold py-3 px-6 rounded-full transition duration-300 ease-in-out">Explore Our Cars</a>
+        </div>
+    </section>
+
+    <section id="cars" class="bg-gray-100 py-20 px-4 text-center rounded-md">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-8 text-darkbrown">Featured Cars</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col justify-between">
+                    <img src="image/luxery2.jfif" alt="Car 1" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">LUXERY CAR</h3>
+                    <p class="text-lg font-bold text-red-600 mb-4">@Affordable Price</p>
+                    <a href="booking.html" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Rent Now</a>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col justify-between">
+                    <img src="image/PRADO.jfif" alt="Car 2" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Toyota Land Cruiser Prado</h3>
+                    <p class="text-lg font-bold text-red-600 mb-4">@Affordable Price</p>
+                    <a href="booking.html" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Rent Now</a>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4 flex flex-col justify-between">
+                    <img src="image/economy.jfif" alt="Car 3" class="rounded-md mb-4">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">ECONOMY CAR</h3>
+                    <p class="text-lg font-bold text-red-600 mb-4">@Affordable Price</p>
+                    <a href="booking.html" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Rent Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-red-100 py-20 px-4 text-gray-800 rounded-md">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl font-bold mb-4 text-red-700">About Us</h2>
+                <p class="text-lg">Osagyefo Car Rentals is a premier car rental company dedicated to providing exceptional service and a wide selection of quality vehicles. We strive to make your rental experience smooth and enjoyable. Our commitment to customer satisfaction sets us apart.</p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="image/comp.jpg" alt="About Us" class="rounded-md shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="bg-gray-100 py-20 px-4 text-gray-800 rounded-md">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-8 text-darkbrown">Contact Us</h2>
+            <p class="text-lg mb-4">Email: addoemma246@gmail.com</p>
+            <p class="text-lg mb-8">Phone: 0201882473/ 0245720474</p>
+            <div class="bg-white rounded-lg shadow-md p-8 mx-auto max-w-md text-left">
+                <h3 class="text-xl font-semibold mb-4 text-gray-800">Get in Touch</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                        <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                        <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                        <textarea id="message" name="message" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+                    </div>
+                    <button type="submit" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-full transition duration-300 ease-in-out">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-darkbrown text-white py-4 text-center rounded-md">
+        <p>© 2024 Osagyefo Car Rentals. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // You can add JavaScript for interactive features here, if needed.
+        // For example, you could add smooth scrolling for the navigation links.
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Osagyefo Car Rentals - About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #a52a2a;
+        }
+        header {
+            width: 100%;
+            text-align: center; /* Center the header content */
+        }
+        nav {
+            margin-right: 0;
+            margin-top: 1rem; /* Add space between logo and nav */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease-in-out;
+        }
+        nav ul li a:hover {
+            color: #f59e0b;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+  <header class="bg-darkbrown text-white py-4  shadow-md sticky top-0 z-10 rounded-md">
+        <div class="logo ml-4">
+            <a href="index.html" class="text-darkred no-underline">Osagyefo</a>
+        </div>
+        <nav class="mr-4">
+            <ul class="flex space-x-4">
+                <li><a href="index.html" class="hover:text-yellow-300 no-underline text-black">Home</a></li>
+                <li><a href="ourcars.html" class="hover:text-yellow-300 no-underline text-black">Cars</a></li>
+                <li><a href="booking.html" class="hover:text-yellow-300 no-underline text-black">Book Now</a></li>
+                <li><a href="aboutus.html" class="hover:text-yellow-300 no-underline text-black">About Us</a></li>
+                <li><a href="CONTACT.html" class="hover:text-yellow-300 no-underline text-black">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="bg-red-100 py-20 px-4 text-gray-800 rounded-md">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="md:w-1/2">
+                <h2 class="text-2xl font-bold mb-4 text-red-700">About Us</h2>
+                <p class="text-lg mb-4 text-darkred">
+                    Osagyefo Car Rentals is a premier car rental company dedicated to providing exceptional service and a wide selection of quality vehicles. We strive to make your rental experience smooth and enjoyable. Our commitment to customer satisfaction sets us apart.
+                </p>
+                <p class="text-lg text-darkred">
+                    We are located in Accra, Ghana.  Our convenient location allows us to serve both local residents and visitors to the area.
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="image/comp.jpg" alt="About Us" class="rounded-md shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-4 text-center rounded-md">
+        <p>© 2024 Osagyefo Car Rentals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
